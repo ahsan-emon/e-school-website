@@ -1,0 +1,54 @@
+.header-section {
+  background: #f0fff0;
+  height: 100vh;
+}
+.banner-img {
+  width: 200px;
+}
+.header-section ul li a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.btn-style {
+  background: #21b573;
+}
+.btn-style1 {
+  background: #21b573;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.banner-item {
+  height: 80vh;
+}
+.banner-item h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fd511a;
+}
+.banner-item h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 70px;
+  color: #000000;
+}
+.banner-item h1 span {
+  color: #21b573;
+}
+.banner-item p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  color: #6c6b6b;
+}
