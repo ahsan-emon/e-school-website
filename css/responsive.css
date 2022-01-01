@@ -11,4 +11,13 @@
   .testimonial-img {
     width: 50%;
   }
+  .banner-item h5 {
+    font-size: 15px;
+  }
+  .banner-item h1 {
+    font-size: 42px;
+  }
+  .banner-item p {
+    font-size: 15px;
+  }
 }
