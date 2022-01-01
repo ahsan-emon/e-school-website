@@ -1,3 +1,7 @@
+/* font link  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap");
+
+/* header start  */
 .header-section {
   background: #f0fff0;
   height: 100vh;
@@ -6,7 +10,7 @@
   width: 200px;
 }
 .header-section ul li a {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -15,18 +19,36 @@
 }
 .btn-style {
   background: #21b573;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.btn-style:hover {
+  background: #2ed188;
 }
 .btn-style1 {
   background: #21b573;
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.btn-style1:hover {
+  background: #2ed188;
+  color: #fff;
 }
 .banner-item {
   height: 80vh;
 }
 .banner-item h5 {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -34,7 +56,7 @@
   color: #fd511a;
 }
 .banner-item h1 {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -45,10 +67,89 @@
   color: #21b573;
 }
 .banner-item p {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 36px;
   color: #6c6b6b;
+}
+/* book section start  */
+.book-img {
+  width: 35%;
+
+  margin: auto;
+}
+.books-item {
+  text-align: center;
+  background: #f8fffb;
+  border-radius: 10px;
+  padding: 30px 0;
+  height: 100%;
+}
+.books-item:hover {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.books-item h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+  padding-top: 10px;
+}
+.books-item p {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+/* course section start  */
+.course-section h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #413960;
+}
+.course-section h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+  padding-top: 10px;
+}
+
+.course-section p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+.courses-item {
+  padding: 15px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+.courses-item i {
+  color: #585859;
+}
+.courses-item h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+  margin: 0;
 }
