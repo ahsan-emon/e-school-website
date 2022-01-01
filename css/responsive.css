@@ -1,0 +1,14 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .courses-item i {
+    font-size: 14px;
+  }
+  .courses-item h3 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .testimonial-img {
+    width: 50%;
+  }
+}
